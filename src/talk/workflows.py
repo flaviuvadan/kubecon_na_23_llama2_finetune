@@ -17,10 +17,11 @@ from hera.workflows import (
     models as m,  # noqa
 )
 
-# the following are environment variables that must be set in order for the workflows to run!
+# TODO: the following are environment variables that must be set in order for the workflows to run!
 global_config.host = os.getenv("ARGO_HOST")
 global_config.token = os.getenv("ARGO_TOKEN")
 global_config.namespace = os.getenv("ARGO_NAMESPACE")
+# this image was constructed from the talk `Dockerfile`. It's best to construct your own!
 global_config.image = "flaviuvadan/kubecon-na-23-finetune-llama2:latest"
 
 
