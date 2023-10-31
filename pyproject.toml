@@ -3,7 +3,7 @@ name = "kubecon-na-23-llama2-finetune"
 version = "0.1.0"
 description = ""
 authors = ["Flaviu Vadan <flaviuvadan@gmail.com>"]
-license = "MIT"
+license = "LLAMA 2 COMMUNITY LICENSE AGREEMENT"
 readme = "README.md"
 packages = [
     { include = "talk", from = "src" },
