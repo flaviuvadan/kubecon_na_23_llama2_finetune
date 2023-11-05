@@ -87,7 +87,7 @@ finetune = Container(
     ],
     # these were identified empirically / by trial + some online documentation about LLM training
     resources=Resources(
-        cpu_request=8, cpu_limit=12, memory_request="112Gi", memory_limit="120", gpus=4
+        cpu_request=8, cpu_limit=12, memory_request="112Gi", memory_limit="120Gi", gpus=4
     ),
     # here we use a dynamic volume mount because we expect the workflow to spin up a number of volumes equal to the
     # number of nodes we use for training. If this were to use the `volumes` field it would spin up a single volume
