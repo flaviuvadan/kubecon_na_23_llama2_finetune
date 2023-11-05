@@ -5,6 +5,11 @@
 This repository contains the code and instructions to reproduce the demo presented in the talk titled
 "How to fine tune an LLM with Argo Workflows and Hera" KubeCon NA 2023, by Flaviu Vadan and JP Zivalich.
 
+## Talk
+
+- https://colocatedeventsna2023.sched.com/event/1Rj3z/how-to-train-an-llm-with-argo-workflows-and-hera-jp-zivalich-pipekit-flaviu-vadan-dyno-therapeutics
+- TODO: add YouTube link
+
 ## Prerequisites
 
 - Python 3.10.13
