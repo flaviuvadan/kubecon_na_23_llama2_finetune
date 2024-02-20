@@ -8,7 +8,7 @@ This repository contains the code and instructions to reproduce the demo present
 ## Talk
 
 - https://colocatedeventsna2023.sched.com/event/1Rj3z/how-to-train-an-llm-with-argo-workflows-and-hera-jp-zivalich-pipekit-flaviu-vadan-dyno-therapeutics
-- TODO: add YouTube link
+- [How to Train an LLM with Argo Workflows and Hera - JP Zivalich & Flaviu Vadan](https://www.youtube.com/watch?v=nRYf3GkKpss)
 
 ## Prerequisites
 
